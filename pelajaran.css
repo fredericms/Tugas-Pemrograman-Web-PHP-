@@ -1,0 +1,239 @@
+body{
+  margin: 0;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.head, .icon, h1, h2, h4, p, .flip, .link, .link-navbar, .link-login, .Name, .Quote, .materi li{
+  color: white;
+}
+
+.head{
+  background-color: #28ceca;
+  height: 100px;
+  padding-top: 5px;
+  border-top: 10px solid aqua;
+  border-left: 5px solid aqua;
+  border-right: 5px solid aqua;
+}
+
+.head-judul{
+  float: left;
+  font-size: 35px;
+  padding: 20px;
+  font-weight: bold;
+  font-family: 'Lucida Handwriting';
+}
+
+ul{
+  display: block;
+  list-style-type: disc;
+}
+
+.head-navbar li{
+  float: right;
+  padding: 15px 30px;
+}
+
+.judul, .materi{
+  font-family: Calibri;
+  font-size: 14pt;
+}
+
+.judul{
+  list-style: none;
+  display: list-item;
+}
+
+.main{
+  padding-top: 20px;
+  height: 900px;
+  background-image: url("lauren-mancke-aOC7TSLb1o8-unsplash (final).png");
+  background-size: cover;
+  border-left: 5px solid #c0eb25;
+  border-right: 5px solid #c0eb25;
+}
+
+.judul-utama{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 35px;
+  font-family: 'Comic Sans MS';
+  font-size: 30pt;
+  border: 4px dashed #20bcd5;
+  padding: 5px 15px;
+  letter-spacing: 4px;
+}
+
+.flip{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.belajar{
+  display: block;
+  text-align: center;
+}
+
+.materi{
+  list-style-type: lower-alpha;
+}
+
+p{
+  font-size: 11pt;
+  text-align: justify;
+  margin-right: 20px;
+  line-height: 25px;
+}
+
+.html, .css, .js, .php{
+  width: 25%;
+  float: left;
+}
+
+.gambar-html{
+  color: darkorange;
+}
+
+.judul-html{
+  text-align: center;
+  margin-right: 6px;
+}
+
+.judul-html, p{
+  margin-left: 20px;
+}
+
+li{
+  padding-bottom: 10px;
+  font-size: 13pt;
+  text-align: left;
+}
+
+.judul-html, .judul-css, .judul-js, .judul-php{
+  margin-top: 0;
+  font-family: 'Centaur';
+  font-size: 16pt;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.gambar-css{
+  color: rgb(76, 110, 245);
+}
+
+.gambar-js{
+  color: yellow;
+}
+
+.gambar-php{
+  color: purple;
+}
+
+h1, h2, h4{
+  text-align: center;
+}
+
+.Belajar-web{
+  letter-spacing: 4px;
+}
+
+h4{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18pt;
+  margin-top: 10px;
+  font-weight: normal;
+}
+
+.persentase{
+  height: 325px;
+}
+
+.web-percentage{
+  font-family: 'Comic Sans MS';
+  font-size: 20pt;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 3.5px;
+}
+
+.judul-web{
+  font-family: Calibri;
+  font-size: 14pt;
+  font-weight: normal;
+  margin-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+.web-percentage, .judul-web{
+  color: cornflowerblue;
+}
+
+.w3-light-grey{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slogan{
+  font-size: 12pt;
+}
+
+.footer{
+  background-color: #31516a;
+  height: 105px;
+  border-left: 5px solid #b2cedc;
+  border-right: 5px solid #b2cedc;
+  border-bottom: 10px solid #b2cedc;
+}
+
+h2, .Belajar-web{
+  padding-top: 15px;
+  font-family: Calibri;
+  font-size: 14pt;
+  margin-bottom: 10px;
+  letter-spacing: 2.5px;
+}
+
+.Belajar-web{
+  font-weight: bold;
+}
+
+.link, .link-navbar, .link-login{
+  text-decoration: none;
+}
+
+.link{
+  padding: 5px;
+}
+
+.link:hover, .link:active, .link-navbar:hover, .link-navbar:active{
+  text-decoration-line: underline;
+}
+
+.link-navbar:hover, .link-navbar:active{
+  text-decoration-style: dotted;
+}
+
+.link-login{
+  background-color: rgba(176, 235, 37, 0.7);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.link-login:hover{
+  border: 2px dotted white;
+  transition: all 0.2s;
+}
+
+.link-login:active{
+  background-color: white;
+  border: 2px dotted black;
+}
+
+.link:active, .link-login:active, .btn-wrapper a:active, .btn-google:active, .btn-email:active, .btn-facebook:active, .btn-study:active{
+  color: black;
+}

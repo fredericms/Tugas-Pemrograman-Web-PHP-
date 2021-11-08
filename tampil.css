@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    opacity: 0;
+    transition: opacity .5s;
+  }
+  
+  .head, .icon, .author, h4, .link, .link-login, .link-navbar, .Name, .Quote, .label-input, .form-title, .input-box, ::placeholder, table{
+    color: white;
+  }
+  
+  .head{
+    background-color: #28ceca;
+    height: 80px;
+    padding-top: 5px;
+    border-top: 10px solid aqua;
+    border-left: 5px solid aqua;
+    border-right: 5px solid aqua;
+  }
+  
+  .head-judul{
+    float: left;
+    font-size: 35px;
+    padding: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Handwriting';
+  }
+  
+  ul{
+    display: block;
+    list-style-type: disc;
+  }
+  
+  .head-navbar li{
+    float: right;
+    padding: 15px 30px;
+  }
+  
+  li{
+    font-family: Calibri;
+    font-size: 14pt;
+    list-style: none;
+    display: list-item;
+  }
+  
+  .main{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-image: url("lauren-mancke-aOC7TSLb1o8-unsplash (final).png");
+    background-size: cover;
+    border-left: 5px solid #c0eb25;
+    border-right: 5px solid #c0eb25;
+  }
+  
+  .form-title{
+    margin-left: 20px;
+    width: 35%;
+    font-family: 'Comic Sans MS';
+    font-size: 30pt;
+    padding: 5px 15px;
+    letter-spacing: 3.5px;
+  }
+
+  .footer{
+    background-color: #31516a;
+    height: 100px;
+    border-left: 5px solid #b2cedc;
+    border-right: 5px solid #b2cedc;
+    border-bottom: 10px solid #b2cedc;
+  }
+  
+  h2{
+    padding-top: 15px;
+    font-family: Calibri;
+    font-size: 14pt;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .icon{
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 25px;
+  }
+  
+  .link{
+    padding: 5px;
+  }
+  
+  .link, .link-navbar, .link-login{
+    text-decoration: none;
+  }
+  
+  .link-login{
+    background-color: rgba(176, 235, 37, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .link-login:hover{
+    border: 2px dotted white;
+    transition: all 0.2s;
+  }
+  
+  .link-login:active{
+    background-color: white;
+    border: 2px dotted black;
+  }
+  
+  .link:hover, .link:active, .link-navbar:hover, .link-navbar:active{
+    text-decoration-line: underline;
+  }
+  
+  .link:active, .link-login:active{
+    color: black;
+  }
+  
+  .link-navbar:hover, .link-navbar:active{
+    text-decoration-style: dotted;
+  }
+  
+.tabel{
+  margin-left: 20px;
+  border: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  background-color: none;
+}
+
+.tabel td, .tabel th{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.tabel td:hover {
+  background-color: #ddd;
+}
+
+.tabel th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+}
+

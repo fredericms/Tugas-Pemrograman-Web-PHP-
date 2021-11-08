@@ -1,0 +1,216 @@
+body{
+  margin: 0;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.head, .icon, h1, h2, h4, .link, .link-navbar, .link-login, .Name, .Quote{
+  color: white;
+}
+
+.head{
+  background-color: #28ceca;
+  height: 80px;
+  padding-top: 5px;
+  border-top: 10px solid aqua;
+  border-left: 5px solid aqua;
+  border-right: 5px solid aqua;
+}
+
+.head-judul{
+  float: left;
+  font-size: 35px;
+  padding: 20px;
+  font-weight: bold;
+  font-family: 'Lucida Handwriting';
+}
+
+ul{
+  display: block;
+  list-style-type: disc;
+}
+
+.head-navbar li{
+  float: right;
+  padding: 15px 30px;
+  
+}
+
+li{
+  font-family: Calibri;
+  font-size: 14pt;
+  list-style: none;
+  display: list-item;
+}
+
+.main{
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background-image: url("lauren-mancke-aOC7TSLb1o8-unsplash (final).png");
+  background-size: cover;
+  border-left: 5px solid #c0eb25;
+  border-right: 5px solid #c0eb25;
+}
+
+.Quote{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Ink Free Regular';
+  font-size: 16pt;
+  font-weight: 400;
+}
+
+.Name{
+  margin-top: 10px;
+  font-family: 'Times New Roman', Times, sans-serif;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+h1, h2, h4, p{
+  text-align: center;
+}
+
+.Belajar-web{
+  letter-spacing: 4px;
+}
+
+h1{
+  font-family: 'Times New Roman', Times, sans-serif;
+  font-size: 50pt;
+  letter-spacing: 5px;
+}
+
+h4{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18pt;
+  margin-top: 10px;
+  font-weight: normal;
+}
+
+.slogan{
+  font-size: 12pt;
+}
+
+span{
+  color: greenyellow;
+}
+
+.footer{
+  background-color: #31516a;
+  height: 85px;
+  border-left: 5px solid #b2cedc;
+  border-right: 5px solid #b2cedc;
+  border-bottom: 10px solid #b2cedc;
+}
+
+h2{
+  padding-top: 15px;
+  font-family: Calibri;
+  font-size: 14pt;
+  margin-bottom: 10px;
+}
+
+.icon{
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 25px;
+}
+
+.link, .link-navbar, .link-login{
+  text-decoration: none;
+}
+
+.link{
+  padding: 5px;
+}
+
+.link:hover, .link:active, .link-navbar:hover, .link-navbar:active{
+  text-decoration-line: underline;
+}
+
+.link-navbar:hover, .link-navbar:active{
+  text-decoration-style: dotted;
+}
+
+.link-login{
+  background-color: rgba(176, 235, 37, 0.7);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.link-login:hover{
+  border: 2px dotted white;
+  transition: all 0.2s;
+}
+
+.link-login:active{
+  background-color: white;
+  border: 2px dotted black;
+}
+
+.btn-wrapper{
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.btn-wrapper h4{
+  font-family: 'Calibri';
+  font-size: 12pt;
+}
+
+.btn-wrapper a, .btn-google, .btn-facebook, .btn-email, .btn-study{ 
+  margin-top: 10px;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-google{
+  background-color: darkorange;
+}
+
+.btn-facebook{
+  background-color: #3b5998;
+}
+
+.btn-email{
+  background-color: green;
+}
+
+.btn-study{
+  background-color: cornflowerblue;
+  font-size: 12pt;
+}
+
+.btn-google:hover, .btn-email:hover, .btn-facebook:hover{
+  border: 1px solid white;
+}
+
+.btn-study:hover{
+  border: 1px solid black;
+}
+
+.link:active, .link-login:active, .btn-wrapper a:active, .btn-google:active, .btn-email:active, .btn-facebook:active, .btn-study:active{
+  color: black;
+}
+
+.deskripsi{
+  color: cornflowerblue;
+  font-family: 'Calibri';
+  font-size: 13pt;
+}
+
+.paragraf1{
+  padding-top: 10px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.paragraf2{
+  font-size: 11pt;
+}

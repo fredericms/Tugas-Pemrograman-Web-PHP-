@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    opacity: 0;
+    transition: opacity .5s;
+}
+    
+.head, .icon, .link-login, .link-navbar, .Name, .Quote, .label-input, .form-title, .input-box, ::placeholder, #password, .label-login{
+color: white;
+}
+
+.head{
+background-color: #28ceca;
+height: 80px;
+padding-top: 5px;
+border-top: 10px solid aqua;
+border-left: 5px solid aqua;
+border-right: 5px solid aqua;
+}
+
+.head-judul{
+float: left;
+font-size: 35px;
+padding: 20px;
+font-weight: bold;
+font-family: 'Lucida Handwriting';
+}
+
+ul{
+display: block;
+list-style-type: disc;
+}
+
+.head-navbar li{
+float: right;
+padding: 15px 30px;
+
+}
+
+li{
+font-family: Calibri;
+font-size: 14pt;
+list-style: none;
+display: list-item;
+}
+
+.main{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background-image: url("lauren-mancke-aOC7TSLb1o8-unsplash (final).png");
+    background-size: cover;
+    border-left: 5px solid #c0eb25;
+    border-right: 5px solid #c0eb25;
+    border-bottom: 5px solid #c0eb25;
+}
+
+.link-navbar, .link-login{
+text-decoration: none;
+}
+
+.link-login{
+background-color: rgba(176, 235, 37, 0.7);
+padding: 5px 10px;
+border-radius: 5px;
+}
+
+.link-login:hover{
+border: 2px dotted white;
+transition: all 0.2s;
+}
+
+.link-login:active{
+background-color: white;
+border: 2px dotted black;
+}
+
+.link-navbar:hover, .link-navbar:active{
+text-decoration-line: underline;
+}
+
+.link-login:active{
+color: black;
+}
+
+.link-navbar:hover, .link-navbar:active{
+text-decoration-style: dotted;
+}
+
+.form-title{
+width: 35%;
+margin-left: auto;
+margin-right: auto;
+font-family: 'Comic Sans MS';
+font-size: 30pt;
+text-align: center;
+border: 4px dashed #20bcd5;
+padding: 5px 15px;
+letter-spacing: 3.5px;
+}
+
+.form{
+width: 100%;
+}
+
+.label-input{
+    font-family: Calibri;
+    font-size: 14pt;
+    text-align: left;
+    font-weight: bold;
+}
+
+.label-login{
+    font-family: 'Calibri';
+    font-size: 14pt;
+    font-weight: normal;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+#password, .input-box{
+    width: 37%;
+    background: transparent;
+    font-family: Calibri;
+    font-size: 12pt;
+    padding-bottom: 12px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 3px dashed white;
+    outline: none;
+}
+
+.label-input, #password, .input-box{
+    margin-left: 390px;
+}
+
+#password:focus, .input-box:focus{
+    border-bottom: 3px dotted white;
+}
+
+.submit{
+    padding: 12px 25px;
+    font-family: 'Calibri';
+    font-size: 12pt;
+    font-weight: bold;
+    color: black;
+    background-color: #b0eb25;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 575px;
+}
+
+.submit:hover{
+    border: 2px solid white;
+    transition: all 0.2s;
+}
+
+#message {
+    color:white;
+    position: relative;
+    padding: 20px;
+    margin-top: 5px;
+}
+    
+#message p {
+    padding: 10px 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.valid {
+    color: white;
+}
+    
+.valid:before {
+    position: relative;
+    left: -10px;
+    content: "✔";
+}
+
+.invalid {
+    color: red;
+}
+    
+.invalid:before {
+    position: relative;
+    left: -10px;
+    content: "✖";
+}
